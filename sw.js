@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Yiyi nails
 
-const CACHE_NAME = 'yiyinails-v1';
+const CACHE_NAME = 'yiyinails-v47';
 const urlsToCache = [
   '/yiyinails/',
   '/yiyinails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/yiyinails/icons/icon-152x152.png',
   '/yiyinails/icons/icon-192x192.png',
   '/yiyinails/icons/icon-384x384.png',
-  '/yiyinails/icons/icon-512x512.png'
+  '/yiyinails/icons/icon-512x512.png',
+  '/yiyinails/vendor/react.production.min.js',
+  '/yiyinails/vendor/react-dom.production.min.js',
+  '/yiyinails/vendor/babel.min.js',
+  '/yiyinails/vendor/bcrypt.min.js',
+  '/yiyinails/vendor/tailwind-browser.js',
+  '/yiyinails/vendor/lucide/lucide.css',
+  '/yiyinails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
