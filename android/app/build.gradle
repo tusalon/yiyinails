@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "com.tusalon.exoticnailsbyyuli"
+    namespace = "com.tusalon.yiyinails"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.tusalon.exoticnailsbyyuli"
+        applicationId "com.tusalon.yiyinails"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
